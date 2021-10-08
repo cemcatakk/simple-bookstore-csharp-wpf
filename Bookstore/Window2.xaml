@@ -1,0 +1,23 @@
+﻿<Window x:Class="Bookstore.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bookstore"
+        mc:Ignorable="d"
+        Title="Select a Category" Height="402.712" Width="317.966">
+    <Grid>
+        <Label x:Name="label" Content="Selecet A Category" HorizontalAlignment="Left" Margin="6,67,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="121,71,0,0" VerticalAlignment="Top" Width="166" SelectionChanged="comboBox_SelectionChanged">
+            <ListBoxItem Content="Adventure"/>
+            <ListBoxItem Content="Classics"/>
+            <ListBoxItem Content="Science Fiction"/>
+        </ComboBox>
+        <Label x:Name="label_Copy" Content="Selecet A Book" HorizontalAlignment="Left" Margin="6,122,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBox_book" HorizontalAlignment="Left" Margin="121,126,0,0" VerticalAlignment="Top" Width="166"/>
+        <Button x:Name="button" Content="Add book to the list" HorizontalAlignment="Left" Margin="10,171,0,0" VerticalAlignment="Top" Width="150" Height="56" Click="button_Click"/>
+        <CheckBox x:Name="checkBox" Content="Confirm" HorizontalAlignment="Left" Margin="24,264,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
+        <Button x:Name="button1" Content="Next" HorizontalAlignment="Left" Margin="183,334,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="button1_Click"/>
+
+    </Grid>
+</Window>

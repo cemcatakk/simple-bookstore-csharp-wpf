@@ -1,0 +1,16 @@
+﻿<Window x:Class="Bookstore.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bookstore"
+        mc:Ignorable="d"
+        Title="Book List" Height="450" Width="505.593">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="352" VerticalAlignment="Top" Width="225" Margin="33,30,0,0"/>
+        <Button x:Name="button" Content="Add Another Book" HorizontalAlignment="Left" Margin="315,59,0,0" VerticalAlignment="Top" Width="115" Height="38" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Delete" HorizontalAlignment="Left" Margin="315,147,0,0" VerticalAlignment="Top" Width="115" Height="38" Click="button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Close" HorizontalAlignment="Left" Margin="315,237,0,0" VerticalAlignment="Top" Width="115" Height="38" Click="button_Copy1_Click"/>
+
+    </Grid>
+</Window>
